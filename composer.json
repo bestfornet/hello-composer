@@ -1,0 +1,21 @@
+{
+    "name": "bestfornet/hello-composer",
+    "description": "My first packagist package",
+    "type": "package",
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "license": "mit",
+    "autoload": {
+        "psr-4": {
+            "bestfornet\\HelloComposer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "martin.tuma",
+            "email": "martin.tuma@bestfornet.cz"
+        }
+    ],
+    "minimum-stability": "dev"
+}
